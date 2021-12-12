@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./styles/main.css">
+
+  <script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBtoyMUWBtZk3uIg13uwyXC0oU3g6j9XsM&callback=initMap&v=weekly"
+      async
+    ></script>
+
+  <title>TEKO</title>
+</head>
+
+<body>
+  <div
+    class="d-map"
+    data-url="data/places.json"
+    data-initial-longitude="56.80890"
+    data-initial-latitude="100.25936"
+    data-initial-zoom="4"
+    data-tablet-initial-longitude="55.881325"
+    data-tablet-initial-latitude="53.910357"
+    data-tablet-initial-zoom="4"
+    data-mobile-initial-longitude="55.755819"
+    data-mobile-initial-latitude="37.617644"
+    data-mobile-initial-zoom="3"
+  >
+    <div class="d-map__container" id="js-yandex-map">
+      <!-- Тут карта -->
+    </div>
+
+    </div>
+    <div class="d-map__overlay">
+      <div class="d-map__header">
+        <h2 class="d-map__title">федеральное покрытие</h2>
+        <img src="images/icons/logo.svg" alt="Logo">
+      </div>
+      
+      <ul class="d-map__places" id="js-map-list-container">
+      </ul>
+    </div>
+  </div>
+  <div class="d-map__mobile-places-container">
+    <ul class="d-map__places" id="js-mobile-map-list-container">
+    </ul>
+  </div>
+
+  <script src="scripts/newMap.js"></script>
+</body>
+
+</html>

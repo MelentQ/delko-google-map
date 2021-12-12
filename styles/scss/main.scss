@@ -1,0 +1,8 @@
+// 1. Установить node.js
+// 2. $ npm install -g sass
+// 3. $ sass --watch --no-source-map styles/scss/main.scss styles/main.css
+// ======
+// Либо писать код прямо в main.css
+
+// index.html
+@import "./blocks/index/map";

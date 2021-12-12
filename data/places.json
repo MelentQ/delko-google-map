@@ -1,0 +1,66 @@
+{
+  "groups": [
+    {
+      "groupLabel": "Отделов продаж",
+      "count": 250,
+      "groupIcon": "images/icons/mark--orange.svg",
+      "places": [
+        {
+          "name": "Москва",
+          "coords": [
+            55.755819,
+            37.617644
+          ]
+        },
+        {
+          "name": "Санкт-Петербург",
+          "coords": [
+            59.939099,
+            30.315877
+          ]
+        }
+      ]
+    },
+    {
+      "groupLabel": "Офисов колонных",
+      "count": 250,
+      "groupIcon": "images/icons/mark--yellow.svg",
+      "places": [
+        {
+          "name": "Казань",
+          "coords": [
+            55.796127,
+            49.106414
+          ]
+        },
+        {
+          "name": "Владивосток",
+          "coords": [
+            43.115542,
+            131.885494
+          ]
+        }
+      ]
+    },
+    {
+      "groupLabel": "Сервисов",
+      "groupIcon": "images/icons/mark--blue.svg",
+      "places": [
+        {
+          "name": "Сочи",
+          "coords": [
+            43.585472,
+            39.723098
+          ]
+        },
+        {
+          "name": "Хабаровск",
+          "coords": [
+            48.480077,
+            135.071070
+          ]
+        }
+      ]
+    }
+  ]
+}
