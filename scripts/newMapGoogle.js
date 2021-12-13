@@ -25,6 +25,8 @@ function initMap() {
     center: mapCenter,
     zoom: mapZoom,
     disableDefaultUI: true,
+    gestureHandling: 'greedy',
+    scrollwheel: false,
     styles: [{
       "featureType": "landscape",
       "elementType": "geometry.fill",
